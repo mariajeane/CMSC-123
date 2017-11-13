@@ -1,4 +1,3 @@
-CMSC 123: Iterator Lab Exercise
-- Collection Interface
-- Iterator Interface
-- LinkedList
+public interface ICollection {
+  public IIterator<E> iterator();
+}
